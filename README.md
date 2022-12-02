@@ -23,5 +23,5 @@ This is a project template for golang fiber microservice with hexagonal architec
 3. Start server
   - go run main.go
 4. (Optinal) build for lambda
-  - Modify main.go uncoment lambda.Start(app.Handler) and comment app.StartServer()
+  - Modify main.go uncomment lambda.Start(app.Handler) and comment app.StartServer()
   - make docker.fiber.build
